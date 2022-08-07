@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+#container {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkgrey;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+#username, #password {
+    background-color: grey;
+    color: black;
+    margin-left: 18%;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+#button {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: lightgrey;
+    transition-duration: 0.5s;
+}
+
+#button:hover {
+    background-color: grey;
+}
